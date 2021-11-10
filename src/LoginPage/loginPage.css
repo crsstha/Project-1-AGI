@@ -1,0 +1,32 @@
+.lPg {
+  background-color: oldlace;
+  display: inline-block;
+  width: 600px;
+  height: 450px;
+  padding: 50px;
+  border-radius: 30px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.lPg h2 {
+  text-align: center;
+}
+.log {
+  margin: 40px;
+  padding: 20px;
+  align-content: center;
+  text-decoration: none;
+  border: orangered;
+  background-color: palegoldenrod;
+  border-radius: 30px;
+  color: green;
+  float: right;
+}
+.log:hover {
+  background-color: greenyellow;
+  color: black;
+}

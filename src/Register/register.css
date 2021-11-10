@@ -1,0 +1,38 @@
+.reg-center {
+  max-width: 500px;
+  border-radius: 10px;
+  margin: 50px auto;
+  padding: 30px 40px;
+  box-shadow: 20px 20px 80px rgb(206, 206, 206);
+  background-color: antiquewhite;
+  animation: reg 800ms ease-in-out forwards;
+  transform-origin: top center;
+}
+.reg-form h1 {
+  font-family: "Kaushan Script", cursive;
+  color: #400485;
+  font-style: italic;
+  text-align: center;
+}
+.form-inputs {
+  margin: 20px;
+}
+.col-md-6 {
+  margin-top: 20px;
+  width: 100%;
+  margin: bottom 30px;
+}
+@keyframes reg {
+  0% {
+    transform: rotateX(-90deg);
+  }
+  70% {
+    transform: rotateX(20deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+.col-md-6 p {
+  color: red;
+}
